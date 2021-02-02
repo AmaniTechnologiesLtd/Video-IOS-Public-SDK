@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   spec.description  = "The knob control is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
   spec.homepage     = "http://EXAMPLE/AmaniSDK"
   spec.license      = "MIT"
-  spec.author             = { "Pratul" => "pratul.dawande@unthinkable.co" }
+  spec.author       = "Amani"
   spec.platform     = :ios, "5.0"
-  spec.source       = { :git => 'https://github.com/pratuldawande/AmaniVideo.git', :tag => "#{spec.version}"}
+  spec.source       = { :git => 'https://github.com/AmaniTechnologiesLtd/Video-IOS-Public-SDK.git', :tag => "#{spec.version}"}
   spec.dependency 'Alamofire'
   spec.dependency 'SwiftLint'
   spec.dependency 'iProgressHUD'
